@@ -122,3 +122,22 @@ body{
     color: white !important;
     transform: translateY(-2px);
 }
+
+
+/* SERVICES */
+.services{
+    margin-top: -50px;
+}
+
+.icon-services{
+    font-size: 48px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+}
+
+.icon-services:hover {
+  text-shadow: hsl(337, 100%, 65%) 0 0 12px;
+}
