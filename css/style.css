@@ -74,3 +74,51 @@ body{
     transform: translateY(-50%);
     font-size: 18px;
 }
+
+
+/*Hero*/
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/image-hero.png) center center no-repeat;
+    background-size: cover;
+}
+
+.font-one{
+    font-size: 4rem;
+}
+
+.sub-title{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.btn-one{
+    transition: all .3s ease;
+}
+
+
+.btn-one:hover{
+    background-color: #ff2d82;
+    transform: translateY(-2px);
+}
+
+.btn-one i{
+    display: inline-block;
+    margin-left: 8px;
+    transition: transform .3s ease;
+}
+
+.btn-one:hover i{
+    transform: translateX(6px);
+}
+
+.btn-two{
+    transition: all .3s ease;
+}
+
+
+.btn-two:hover{
+    background-color: hsl(337, 100%, 65%) !important;
+    color: white !important;
+    transform: translateY(-2px);
+}
