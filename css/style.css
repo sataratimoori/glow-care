@@ -1,3 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.text-pink-one{
+    color: #ff4f93;
+}
+
+.text-pink-two{
+    color: #ff2d82;
+}
+
+.text-three{
+    color: #FFEABD;
+}
+
+.text-yellow{
+    color: yellow;
+}
+
+.bg-pink-one{
+    background-color: #ff4f93;
+}
+
+.bg-pink-two{
+    background-color: #ff2d82;
+}
+
+
+/* Header */
+.header {
+    transition: all 0.5s;
+    padding: 5px 0;
+}
+.header-scrolled {
+    background-color: #ff2d82;
+    box-shadow: 0px 2px 20px rgb(255 45 130 / 10%);
+}
+
+@media (max-width: 990px){
+    .navbar-collapse{
+        background-color: #ff2d82 !important;
+        text-align: center;
+        padding: 3rem;
+    }
+}
+
+.nav-link.active{
+    text-decoration: underline;
+}
+
+
+.search-box{
+    position: relative;
+}
+
+.search-box input{
+    width: 100%;
+    padding: 12px 45px 12px 15px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+}
+
+.search-box i{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+}
+
+
+/*Hero*/
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/image-hero.png) center center no-repeat;
+    background-size: cover;
+}
+
+.font-one{
+    font-size: 4rem;
+}
+
+.sub-title{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.btn-one{
+    transition: all .3s ease;
+}
+
+
+.btn-one:hover{
+    background-color: #ff2d82;
+    transform: translateY(-2px);
+}
+
+.btn-one i{
+    display: inline-block;
+    margin-left: 8px;
+    transition: transform .3s ease;
+}
+
+.btn-one:hover i{
+    transform: translateX(6px);
+}
+
+.btn-two{
+    transition: all .3s ease;
+}
+
+
+.btn-two:hover{
+    background-color: hsl(337, 100%, 65%) !important;
+    color: white !important;
+    transform: translateY(-2px);
+}
+
+
+/* SERVICES */
+.services{
+    margin-top: -50px;
+}
+
+.icon-services{
+    font-size: 48px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+}
+
+.icon-services:hover {
+  text-shadow: hsl(337, 100%, 65%) 0 0 12px;
+}
+
+
+
+@media (max-width: 992px){
+    .hero {
+        width: 100%;
+        height: 100vh;
+        background: url(./image-hero.png) center center no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+
+    .services{
+        margin-top: -120px;
+    }
+}
+
+/* Responsive navbar, hero, services */
+@media (max-width: 576px){
+    .hero {
+        width: 100%;
+        height: 100vh;
+        background: url(./image-hero.png) center left no-repeat;
+        background-size: cover;
+        padding-top: 3rem;
+        text-align: center;
+    }
+
+    .services{
+        margin-top: 0;
+    }
+
+    .card-1{
+        justify-content: center;
+    }
+}
+
 /* Offer Section*/
 .off {
     background-image: url(../img/offer.png);
