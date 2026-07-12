@@ -177,3 +177,186 @@ body{
         justify-content: center;
     }
 }
+
+/* Offer Section*/
+.off {
+    background-image: url(../img/offer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    .btn-light:hover{
+    
+        background:#ffd9e8;
+        
+        }
+    
+    /* Secure Payments*/
+    
+    .card-body i{
+    color:#ff4f93;
+    }
+    
+    .shadow-sm{
+    transition:.3s;
+    }
+    
+    .shadow-sm:hover{
+    transform:translateY(-8px);
+    }
+
+    /*--------- Why Us --------*/
+
+.why-card{
+    transition:.4s;
+    cursor:pointer;
+    transform:scale(.9);
+    background:#fff9fd;
+    }
+    
+    .why-card.active{
+    transform:scale(1.1);
+    background:#ffe4ef;
+    }
+    
+    .why-card:hover{
+    transform:scale(1.1);
+    background:#ffe4ef;
+    box-shadow:0 .8rem 2rem rgba(255,79,147,.25)!important;
+    }
+    
+    .why-card.active:hover{
+    transform:scale(1.1);
+    }
+    
+    .why-card .btn{
+    background:#ff4f93;
+    border:none;
+    }
+    
+    .why-card .btn:hover{
+    background:#ff2f82;
+    }
+
+    /*------ Instagram Gallary -------*/
+
+.gallery-item{
+    cursor:pointer;
+    }
+    
+    .gallery-item img{
+    aspect-ratio:1/1;
+    object-fit:cover;
+    transition:.4s;
+    }
+    
+    .overlay{
+    position:absolute;
+    inset:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:rgba(255,79,147,.65);
+    color:#fff;
+    opacity:0;
+    transition:.4s;
+    }
+    
+    .gallery-item:hover img{
+    transform:scale(1.1);
+    }
+    
+    .gallery-item:hover .overlay{
+    opacity:1;
+    }
+
+    /* --------- Contact ------------ */
+
+#contact{
+    background:#fff7fb;
+    }
+    
+    .form-control{
+    border:2px solid #ffd3e4;
+    }
+    
+    .form-control:focus{
+    
+    border-color:#ff4f93;
+    
+    box-shadow:0 0 0 .2rem rgba(187, 169, 176, 0.2);
+    
+    }
+    
+    .btn-danger{
+    
+    background:#ff4f93;
+    
+    border:none;
+    
+    }
+    
+    .btn-danger:hover{
+    
+    background:#ff2d82;
+    
+    }
+    
+    .card{
+    
+    transition:.3s;
+    
+    }
+    
+    .card:hover{
+    
+    transform:translateY(-8px);
+    
+    }
+
+    /* -------- Foteer --------*/
+
+#footer{
+    background-image: url(../img/IMG_20260710_014400_833.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    #footer a{
+    text-decoration:none;
+    color:#fff;
+    transition:.3s;
+    }
+    
+    #footer a:hover{
+    color:#ffe5ef;
+    }
+    
+    .social{
+    width:48px;
+    height:48px;
+    background:rgba(255,255,255,.18);
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:18px;
+    }
+    
+    .social:hover{
+    background:#fff;
+    color:#ff4f93!important;
+    }
+    
+    #footer img{
+    height:75px;
+    object-fit:cover;
+    }
+    
+    #footer .form-control{
+    border-radius:50px 0 0 50px;
+    }
+    
+    #footer .btn{
+    border-radius:0 50px 50px 0;
+    }
